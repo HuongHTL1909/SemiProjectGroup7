@@ -149,8 +149,7 @@ class UsersController extends Controller
             return redirect()->route('admin');
         }
 
-        // Xác thực thất bại
-        // Xử lý thông báo lỗi và điều hướng trở lại trang đăng nhập
+        
     }
 
 }
