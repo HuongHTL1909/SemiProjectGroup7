@@ -717,7 +717,7 @@ CREATE TABLE IF NOT EXISTS `users` (
 
 INSERT INTO `users` (`id`, `name`, `email`, `email_verified_at`, `password`, `photo`, `role`, `provider`, `provider_id`, `status`, `remember_token`, `created_at`, `updated_at`) VALUES
 (1, 'Group 7', 'admin@gmail.com', NULL, '$2y$10$yCebnd1xUvDtcAuo1uLvcu.JR.0Za38Xg7M6JAds/zJejNhFPm1j6', '/storage/photos/1/Users/l3.jpg', 'admin', NULL, NULL, 'active', 'b04f95GMTiaZszksAPirvMVVFiqv6PIIjk1j90oDBvk5ecZe9IqfHtApH3q5', NULL, '2022-08-13 06:52:15'),
-(5, 'Ho Thi Lan Huong', 'user@gmail.com', NULL, '$2y$10$qR/ayItxiQJxVxaHLcTqquglO4eFq9RUMAsi7b2YBdWLvy4sbwMt.', NULL, 'user', NULL, NULL, 'active', NULL, '2022-08-12 21:28:18', '2022-08-12 21:28:18');
+--(5, 'Ho Thi Lan Huong', 'user@gmail.com', NULL, '$2y$10$qR/ayItxiQJxVxaHLcTqquglO4eFq9RUMAsi7b2YBdWLvy4sbwMt.', NULL, 'user', NULL, NULL, 'active', NULL, '2022-08-12 21:28:18', '2022-08-12 21:28:18');
 
 -- --------------------------------------------------------
 

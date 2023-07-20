@@ -393,7 +393,7 @@ class FrontendController extends Controller
         Session::put('user',$data['email']);
         if($check){
             request()->session()->flash('success','Successful account registration');
-            return redirect()->route('home');
+            return redirect('/user/login');
         }
         else{
             request()->session()->flash('error','An error occurred while saving data!');
