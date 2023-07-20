@@ -64,7 +64,7 @@ class ProductReviewController extends Controller
             request()->session()->flash('success','Thanks for responding');
         }
         else{
-            request()->session()->flash('error','An error occurred while saving data');
+            request()->session()->flash('error','An error occurred while saving data.');
         }
         return redirect()->back();
     }
