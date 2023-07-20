@@ -106,8 +106,8 @@
                             <div class="shop__product__option__right">
                                 <p>Filter products by:</p>
                                 <select>
-                                    <option value="">Low to high</option>
-                                    <option value="">High to low</option>
+                                    <option value="">Low to High</option>
+                                    <option value="">High to Low</option>
                                     <option value="">Selling products</option>
                                 </select>
                             </div>
