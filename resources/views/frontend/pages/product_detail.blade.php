@@ -10,7 +10,7 @@
                         <div class="product__details__breadcrumb">
                             <a href="{{ route('home') }}">Home Page</a>
                             <a href="">Shop</a>
-                            <span>Product details</span>
+                            <span>Product Details</span>
                         </div>
                     </div>
                 </div>
