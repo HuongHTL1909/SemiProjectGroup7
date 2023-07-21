@@ -167,5 +167,5 @@
         </div>
     </div>
 </section>
-<!-- Shop Section End -->
+<!-- Shop Section End. -->
 @endsection
