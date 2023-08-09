@@ -40,6 +40,7 @@ class AdminController extends Controller
         $status=$user->fill($data)->save();
         if($status){
             request()->session()->flash('success','Save data successfully');
+            request()->session()->flash('success','Save data successfully');
         }
         else{
             request()->session()->flash('error','An error occurred while saving data');
