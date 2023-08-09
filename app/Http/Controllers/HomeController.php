@@ -116,6 +116,7 @@ class HomeController extends Controller
             $status=$review->fill($data)->update();
             if($status){
                 request()->session()->flash('success','Update successful');
+                request()->session()->flash('success','Update successful');
             }
             else{
                 request()->session()->flash('error','An error occurred while saving data!');
