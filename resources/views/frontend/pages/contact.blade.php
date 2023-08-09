@@ -5,7 +5,7 @@
 
     <!-- Map Begin -->
     <div class="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.5177580567047!2d106.69916291428699!3d10.771600262229411!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f40a3b49e59%3A0xa1bd14e483a602db!2zVHLGsOG7nW5nIENhbyDEkeG6s25nIEvhu7kgdGh14bqtdCBDYW8gVGjhuq9uZw!5e0!3m2!1svi!2s!4v1660243426947!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" height="500" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.863926013346!2d105.74382421087363!3d21.038129987375783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313454b9739f199f%3A0xc810aaa208b3e02e!2zQ2FvIMSQ4bqzbmcgQW5oIFF14buRYyBCVEVDIEZQVA!5e0!3m2!1svi!2s!4v1691624047518!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></ifrsrc=>" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" height="500" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
     </div>
     <!-- Map End -->
 
