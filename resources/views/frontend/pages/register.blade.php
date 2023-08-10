@@ -53,28 +53,28 @@
                         <span class="label-input100">Full Name</span>
                         <input class="input100" type="text" name="name" value="{{old('name')}}" placeholder="Enter your full name">
                         @error('name')
-                        <span class="focus-input100" data-symbol="&#xf206;">{{$message}}</span>
+                        <span class="focus-input100" data-symbol="&#xf206;"></span>
                         @enderror
                     </div>
-                    <div class="wrap-input100 validate-input m-b-23" data-validate="Username is reauired">
+                    <div class="wrap-input100 validate-input m-b-23" data-validate="Email ko dung dinh dang">
                         <span class="label-input100">Email</span>
                         <input class="input100" type="text" name="email" value="{{old('email')}}" placeholder="Enter your Email">
                         @error('email')
-                        <span class="focus-input100" data-symbol="&#xf206;">{{$message}}</span>
+                        <span class="focus-input100" data-symbol="&#xf206;"></span>
                         @enderror
                     </div>
                     <div class="wrap-input100 validate-input" data-validate="Password is required">
                         <span class="label-input100">Password</span>
                         <input class="input100" type="password" name="password" value="{{old('password')}}" placeholder="Enter your password">
                         @error('password')
-                        <span class="focus-input100" data-symbol="&#xf190;">{{$message}}</span>
+                        <span class="focus-input100" data-symbol="&#xf190;">Password must be at least 6 characters</span>
                         @enderror
                     </div>
                     <div class="wrap-input100 validate-input" data-validate="Password is required">
                         <span class="label-input100">Enter the password</span>
                         <input class="input100" type="password" name="password_confirmation" value="{{old('password_confirmation')}}" placeholder="Enter the password">
                         @error('password_confirmation')
-                        <span class="focus-input100" data-symbol="&#xf190;">{{$message}}</span>
+                        <span class="focus-input100" data-symbol="&#xf190;"></span>
                         @enderror
                     </div>
                     
