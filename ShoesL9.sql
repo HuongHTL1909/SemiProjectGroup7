@@ -656,7 +656,7 @@ CREATE TABLE IF NOT EXISTS `settings` (
 --
 
 INSERT INTO `settings` (`id`, `description`, `short_des`, `logo`, `photo`, `address`, `phone`, `email`, `created_at`, `updated_at`) VALUES
-(1, 'SHOES SHOP SYSTEM KSHOP', 'shsshsggs', '/storage/photos/1/Settings/logo.png', '/storage/photos/1/Settings/footer-logo.png', 'Cau Dien Ban Tu Liem Ha Noi', '0123456789', 'admin@gmail.com', NULL, '2022-08-12 09:42:10');
+(1, 'SHOES SHOP SYSTEM KSHOP', 'shsshsggs', '/storage/photos/1/Settings/logo.png', '/storage/photos/1/Settings/footer-logo.png', ' Xuan Phuong Nam Tu Liem Ha Noi', '0845543640', 'admin@gmail.com', NULL, '2022-08-12 09:42:10');
 
 -- --------------------------------------------------------
 
