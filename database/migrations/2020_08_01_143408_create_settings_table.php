@@ -29,8 +29,8 @@ class CreateSettingsTable extends Migration
             'short_des'=>'shsshsggs',
             'logo'=>'/storage/photos/1/Settings/logo.png',
             'photo'=>'/storage/photos/1/Settings/footer-logo.png',
-            'address'=>'Cau Dien, Bac Tu Liem, Ha Noi',
-            'phone'=>'0123456789',
+            'address'=>'Xuan Phuong, Nam Tu Liem, Ha Noi',
+            'phone'=>'0845543640',
             'email'=>'admin@gmail.com',
         ]
         );
