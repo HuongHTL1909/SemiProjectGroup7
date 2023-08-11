@@ -45,7 +45,7 @@ class User extends Authenticatable
         return $this->role === 'admin';
     }
 
-    public function orders(){
+    //public function orders(){
         return $this->hasMany('App\Models\Order');
     }
 
