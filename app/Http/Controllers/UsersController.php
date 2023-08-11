@@ -93,7 +93,7 @@ class UsersController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //$user=User::findOrFail($id);//
+        $user=User::findOrFail($id);
         $this->validate($request,
         [
             'name'=>'string|required|max:30',
