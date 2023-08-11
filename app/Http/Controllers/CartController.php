@@ -147,7 +147,7 @@ class CartController extends Controller
         }
     }
 
-    public function checkout(Request $request){
+    //public function checkout(Request $request){
         return view('frontend.pages.checkout');
-    }
+    }//
 }
