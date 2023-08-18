@@ -11,7 +11,7 @@
                     <div class="footer__logo">
                         <a href="#"><img src="{{$setting->photo}}" alt=""></a>
                     </div>
-                    <p>{!!$setting->short_des !!}</p>
+                    {{-- <p>{!!$setting->short_des !!}</p> --}}
                     <a href="#"><img src="{{asset('frontend/img/payment.png')}}" alt=""></a>
                 </div>
             </div>

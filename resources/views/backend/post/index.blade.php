@@ -1,5 +1,4 @@
 @extends('backend.layouts.master')
-
 @section('main-content')
  <!-- DataTales Example -->
  <div class="card shadow mb-4">
@@ -16,7 +15,7 @@
                 <li class="breadcrumb-item active">List</li>
             </ol>
         </div>
-      <a href="{{route('post.create')}}" class="btn btn-primary btn-sm float-right" data-toggle="tooltip" data-placement="bottom" title="Add User"><i class="fas fa-plus"></i> Tạo mới</a>
+      <a href="{{route('post.create')}}" class="btn btn-primary btn-sm float-right" data-toggle="tooltip" data-placement="bottom" title="Add User"><i class="fas fa-plus"></i> Create</a>
     </div>
     <div class="card-body">
       <div class="table-responsive">
