@@ -72,12 +72,9 @@
             </div>
           </div>
         </div>
-
       </div>
-
     </div>
     <!-- Outer Row -->
   </div>
 </body>
-
 </html>

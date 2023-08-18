@@ -1,6 +1,6 @@
 @extends('frontend.layouts.master')
 @section('main-content')
-@section('title','Pay')
+@section('title','Bill')
 
     <!-- Breadcrumb Section Begin -->
     <section class="breadcrumb-option">
@@ -8,7 +8,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="breadcrumb__text">
-                        <h4>Pay</h4>
+                        <h4>Bill</h4>
                         <div class="breadcrumb__links">
                             <a href="{{route('home')}}">Home Page</a>
                             <a href="{{route('product-grids')}}">Shop</a>
@@ -29,7 +29,7 @@
                     @csrf
                     <div class="row">
                         <div class="col-lg-8 col-md-6">
-                           
+
                             <h6 class="checkout__title">Payment details</h6>
                             <div class="row">
                                 <div class="col-lg-6">
@@ -96,7 +96,7 @@
                                                 <option value="{{$shipping->id}}" class="shippingOption" data-price="{{$shipping->price}}">{{$shipping->type}}: {{number_format($shipping->price),2}}$</option>
                                                 @endforeach
                                             </select>
-                                        @else 
+                                        @else
                                             <span>Free</span>
                                         @endif
                                     </li>
@@ -201,8 +201,8 @@
 		$(document).ready(function(){
 			$('.shipping select[name=shipping]').change(function(){
 				let cost = parseFloat( $(this).find('option:selected').data('price') ) || 0;
-				let subtotal = parseFloat( $('.order_subtotal').data('price') ); 
-				let coupon = parseFloat( $('.coupon_price').data('price')  ) || 0; 
+				let subtotal = parseFloat( $('.order_subtotal').data('price') );
+				let coupon = parseFloat( $('.coupon_price').data('price')  ) || 0;
 				$('#order_total_price span').text((subtotal + cost-coupon).toFixed(2)+'VNĐ');
 			});
 
